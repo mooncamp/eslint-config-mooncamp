@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Sebastian Walter"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-prettier": "^4.0.1"
+  },
+  "description": "eslint-config-mooncamp for vue-cli",
+  "keywords": [
+    "vue",
+    "cli",
+    "eslint-config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "eslint-config-mooncamp",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooncamp/eslint-config-mooncamp"
+  },
+  "version": "1.0.0"
+}
