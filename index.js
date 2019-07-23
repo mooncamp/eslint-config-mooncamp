@@ -29,6 +29,7 @@ module.exports = {
       'ObjectExpression': { 'multiline': true },
       'ObjectPattern': { 'multiline': true }
     }],
+    'prefer-destructuring': ['error', {'object': true, 'array': false}],
     'sort-imports-es6-autofix/sort-imports-es6': [2, {
       ignoreCase: false,
       ignoreMemberSort: false,
