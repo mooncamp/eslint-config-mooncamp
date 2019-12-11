@@ -20,16 +20,17 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'import/order': 0,
     'import/prefer-default-export': 0,
-    'max-len': ['error', { 'code': 120 }],
+    'max-len': 'off',
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'import/extensions': ["error", "always", { "js": "never", "vue": "never" }],
+    'import/extensions': ['error', 'always', { 'js': 'never', 'vue': 'never' }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-continue': 'off',
     'object-curly-newline': ['error', {
       'ObjectExpression': { 'multiline': true },
       'ObjectPattern': { 'multiline': true }
     }],
-    'prefer-destructuring': ['error', {'object': true, 'array': false}],
+    'prefer-destructuring': ['error', { 'object': true, 'array': false }],
     'sort-imports-es6-autofix/sort-imports-es6': [2, {
       ignoreCase: false,
       ignoreMemberSort: false,
